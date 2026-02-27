@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi Kelas</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Struktur Organisasi Kelas</h1>
+        
+        <!-- Tingkat 1: Wali Kelas -->
+        <div class="row">
+            <div class="card wali-kelas">
+                <h3>Wali Kelas</h3>
+                <p>Nama Guru, S.Pd.</p>
+            </div>
+        </div>
 
+        <!-- Tingkat 2: Ketua & Wakil -->
+        <div class="row">
+            <div class="card">
+                <h3>Ketua Kelas</h3>
+                <p>Nama Siswa</p>
+            </div>
+            <div class="card">
+                <h3>Wakil Ketua</h3>
+                <p>Nama Siswa</p>
+            </div>
+        </div>
+
+        <!-- Tingkat 3: Sekretaris & Bendahara -->
+        <div class="row">
+            <div class="card">
+                <h3>Sekretaris</h3>
+                <p>Nama Siswa</p>
+            </div>
+            <div class="card">
+                <h3>Bendahara</h3>
+                <p>Nama Siswa</p>
+            </div>
+        </div>
+
+        <!-- Tingkat 4: Seksi-Seksi -->
+        <div class="row seksi">
+            <div class="card">
+                <h4>Seksi Kebersihan</h4>
+                <p>Anggota 1, Anggota 2</p>
+            </div>
+            <div class="card">
+                <h4>Seksi Keamanan</h4>
+                <p>Anggota 1, Anggota 2</p>
+            </div>
+            <div class="card">
+                <h4>Seksi Kerohanian</h4>
+                <p>Anggota 1, Anggota 2</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
